@@ -9,7 +9,9 @@ button {
   margin: 15px;
 }
 
-button:hover {
+button:hover,
+button:focus,
+button:active {
   background-color: green;
   color: white;
   cursor: pointer;
@@ -32,7 +34,9 @@ button:hover {
   border-color: red;
 }
 
-.stop:hover {
+.stop:hover,
+.stop:focus,
+.stop:active {
   color: white;
   background-color: red;
 }
